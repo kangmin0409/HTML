@@ -51,7 +51,7 @@ button:hover {
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* 빛 효과 스타일을 정의합니다. */
+/* 빛 효과 스타일 define */
 button:active::before {
     content: "";
     position: absolute;

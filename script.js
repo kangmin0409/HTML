@@ -28,11 +28,11 @@ buttons.forEach((button) => {
             button.removeChild(lightEffect); // 빛 효과 제거
         }, 300);
 
-        button.style.opacity = "0.7"; // 클릭 시 버튼을 반투명하게 만듭니다.
+        button.style.opacity = "0.7"; // 클릭 시 버튼을 반투명
     });
 
     button.addEventListener("mouseleave", () => {
-        button.style.opacity = "1"; // 버튼을 다시 불투명하게 만듭니다.
+        button.style.opacity = "1"; // 버튼을 다시 불투명하게
     });
 });
 
